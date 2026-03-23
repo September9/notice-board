@@ -1,1 +1,1 @@
-# otice-board
+# notice-board
