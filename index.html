@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>机关通知公告</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <span class="logo">🏫</span>
+                <h1>通知公告</h1>
+            </div>
+            <div class="header-right">
+                <span class="update-time" id="updateTime">--:--:--</span>
+            </div>
+        </header>
+
+        <!-- Flight-style board -->
+        <div class="flight-board">
+            <div class="flight-header">
+                <div class="flight-title">
+                    <span class="flight-icon">📋</span>
+                    <span>NOTICE BOARD</span>
+                </div>
+                <div class="flight-info">
+                    <span id="noticeCount">--</span> 条有效通知
+                </div>
+            </div>
+
+            <!-- Notice Cards -->
+            <div class="notices-container" id="noticesContainer">
+                <div class="loading">加载中...</div>
+            </div>
+
+            <!-- Pagination Info -->
+            <div class="flight-footer">
+                <div class="pagination">
+                    <span class="page-indicator" id="pageIndicator">1 / 1</span>
+                </div>
+                <div class="refresh-info">
+                    每 <span id="refreshInterval">30</span> 秒自动刷新
+                </div>
+            </div>
+        </div>
+
+        <!-- Status Bar -->
+        <footer class="status-bar">
+            <div class="status-left">
+                <span class="status-dot active"></span>
+                <span id="statusText">数据正常</span>
+            </div>
+            <div class="status-right">
+                <span id="nextRefresh">下次刷新: --</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- No notices template -->
+    <template id="emptyTemplate">
+        <div class="empty-state">
+            <div class="empty-icon">📭</div>
+            <div class="empty-title">暂无通知</div>
+            <div class="empty-subtitle">敬请期待...</div>
+        </div>
+    </template>
+
+    <!-- Notice card template -->
+    <template id="noticeTemplate">
+        <div class="notice-card">
+            <div class="notice-header">
+                <span class="notice-channel" data-channel=""></span>
+                <span class="notice-expire"></span>
+            </div>
+            <div class="notice-title"></div>
+            <div class="notice-content"></div>
+            <div class="notice-footer">
+                <span class="notice-time"></span>
+            </div>
+        </div>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Ignore all files except listed
+*
+!index.html
+!style.css
+!app.js
+!notices.json
+!README.md
+!.gitignore
