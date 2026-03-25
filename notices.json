@@ -1,0 +1,32 @@
+{
+  "notices": [
+    {
+      "id": "1",
+      "title": "网络安全培训",
+      "content": "请各部门于4月15日前完成培训",
+      "channel": "oa群",
+      "publishTime": "2026/3/23",
+      "expireTime": "2026/4/15",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "title": "体检通知",
+      "content": "教职工体检已开始",
+      "channel": "微信群",
+      "publishTime": "2026/3/24",
+      "expireTime": "2026/3/31",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "title": "科技成果申报",
+      "content": "请于4月20日前提交材料",
+      "channel": "邮件",
+      "publishTime": "2026/3/23",
+      "expireTime": "2026/4/20",
+      "status": "active"
+    }
+  ],
+  "lastUpdated": "2026-03-25 09:24:00"
+}
