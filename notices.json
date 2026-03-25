@@ -38,13 +38,22 @@
     },
     {
       "id": "5",
-      "title": "测试测试",
-      "content": "测试能不能同步上去",
-      "channel": "点对点通知",
+      "title": "测试测试2222",
+      "content": "测试能不能同步上去2222",
+      "channel": "微信群",
       "publishTime": "2026/3/25",
       "expireTime": "2026/3/25 17:00",
       "status": "active"
+    },
+    {
+      "id": "6",
+      "title": "开课通知",
+      "content": "开课啦开课啦  详见邮件通知",
+      "channel": "邮件",
+      "publishTime": "2026/3/25",
+      "expireTime": "2026/3/26",
+      "status": "active"
     }
   ],
-  "lastUpdated": "2026-03-25 11:55:00"
+  "lastUpdated": "2026-03-25 12:25:00"
 }
