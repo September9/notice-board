@@ -35,7 +35,16 @@
       "publishTime": "2026/3/25",
       "expireTime": "2026/3/25 17:00",
       "status": "active"
+    },
+    {
+      "id": "5",
+      "title": "测试测试",
+      "content": "测试能不能同步上去",
+      "channel": "点对点通知",
+      "publishTime": "2026/3/25",
+      "expireTime": "2026/3/25 17:00",
+      "status": "active"
     }
   ],
-  "lastUpdated": "2026-03-25 11:48:00"
+  "lastUpdated": "2026-03-25 11:55:00"
 }
